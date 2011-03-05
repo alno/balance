@@ -1,0 +1,22 @@
+= Balance
+
+Balance is a gem automating checking balance for different service providers.
+
+== Supported providers
+
+=== Mobile
+
+* Megafon Moscow
+* MTS Moscow
+
+=== Hosting
+
+* Locum
+
+== Contributors
+
+* Alexey Noskov (http://github.com/alno)
+
+Feel free to request pull of new providers.
+
+Copyright (c) 2011 Alexey Noskov, released under the MIT license
