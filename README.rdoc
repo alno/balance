@@ -6,12 +6,16 @@ Balance is a gem automating checking balance for different service providers.
 
 === Mobile
 
-* Megafon Moscow
-* MTS Moscow
+* Megafon Moscow (https://www.serviceguide.megafonmoscow.ru/)
+* MTS Moscow (https://ihelper.mts.ru/SELFCAREPDA/Security.mvc/LogOn)
+
+=== Internet
+
+* Domolink Kaluga (http://radius.kaluga.ru)
 
 === Hosting
 
-* Locum
+* Locum (http://locum.ru)
 
 == Contributors
 
