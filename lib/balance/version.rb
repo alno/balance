@@ -1,4 +1,4 @@
-module Balance
+class Balance
   module VERSION #:nodoc:
     MAJOR = 0
     MINOR = 1
