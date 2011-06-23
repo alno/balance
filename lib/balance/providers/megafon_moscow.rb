@@ -8,7 +8,7 @@ class Balance::Providers::MegafonMoscow
     agent.get 'https://www.serviceguide.megafonmoscow.ru/'
 
     p = agent.post 'https://www.serviceguide.megafonmoscow.ru/ps/scc/mobile/', 'MOBILE_MODE' => 'AUTH', 'LOGIN' => number, 'PASSWORD' => password
-    p.parser.css('#statusbalance').text.match(/\d+\.\d+/)[0].to_f
+    p.parser.css('#statusbalance').text.match(/-?\d+\.\d+/)[0].to_f
   end
 
 end
