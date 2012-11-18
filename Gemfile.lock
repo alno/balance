@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    balance (0.1.0)
+    balance (0.1.1)
       mechanize
 
 GEM
