@@ -16,5 +16,3 @@ class Balance::Providers::DomolinkKaluga
   end
 
 end
-
-Balance.add_provider! 'domolink_kaluga', Balance::Providers::DomolinkKaluga

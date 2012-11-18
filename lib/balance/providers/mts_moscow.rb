@@ -15,5 +15,3 @@ class Balance::Providers::MtsMoscow
   end
 
 end
-
-Balance.add_provider! 'mts_moscow', Balance::Providers::MtsMoscow

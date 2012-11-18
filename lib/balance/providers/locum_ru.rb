@@ -14,5 +14,3 @@ class Balance::Providers::LocumRu
   end
 
 end
-
-Balance.add_provider! 'locum_ru', Balance::Providers::LocumRu

@@ -15,5 +15,3 @@ class Balance::Providers::Yota
   end
 
 end
-
-Balance.add_provider! 'yota', Balance::Providers::Yota

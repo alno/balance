@@ -23,5 +23,3 @@ class Balance::Providers::Maxnet
   end
 
 end
-
-Balance.add_provider! 'maxnet', Balance::Providers::Maxnet
