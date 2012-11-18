@@ -13,6 +13,7 @@ Balance is a gem automating checking balance for different service providers.
 
 * Yota (https://my.yota.ru/selfcare)
 * Domolink Kaluga (http://radius.kaluga.ru)
+* Maxnet (http://maxnet.ru)
 
 === Hosting
 
