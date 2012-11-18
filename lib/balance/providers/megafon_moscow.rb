@@ -10,9 +10,7 @@ class Balance::Providers::MegafonMoscow
     sid = Nokogiri::XML(lp.body).css('SESSION_ID').text
 
     p = agent.post 'https://moscowsg.megafon.ru/SCWWW/ACCOUNT_INFO', 'CHANNEL' => 'WWW', 'P_USER_LANG_ID' => 1, 'find' => '', 'SESSION_ID' => sid
-    p.parser.css('.balance_good').text.match(/-?\d+\.\d+/)[0].to_f
+    p.parser.css('.group-info').first.css('.balance_good, .balance_not_good').text.match(/-?\d+\.\d+/)[0].to_f
   end
 
 end
-
-Balance.add_provider! 'megafon_moscow', Balance::Providers::MegafonMoscow
